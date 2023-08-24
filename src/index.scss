@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500;600;700&display=swap");
+@import "./styles/_variables.scss";
+@import './styles/respsonsive';
+
+html {
+  font-family: Karla, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: $textColor;
+  font-size: 1.6rem;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffff;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 33px;
+  @include mobile-tablet {
+    padding: 0 30px;
+    margin: 0;
+  }
+}
+

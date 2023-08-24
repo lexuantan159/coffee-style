@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.headline-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line-before {
+  display: inline-block;
+  width: 30px;
+  height: 0.8px;
+  background-color: #ececed;
+}
+
+.line-after {
+  display: inline-block;
+  width: 30px;
+  height: 0.8px;
+  background-color: #ececed;
+}
+
+.headline {
+  color: $textColor;
+  opacity: 0.8;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 12px;
+  overflow-wrap: break-word;
+  text-align-last: center;
+}
+
+.headlineWhite {
+  color: $whiteColor;
+  opacity: 0.8;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 12px;
+  overflow-wrap: break-word;
+  text-align-last: center;
+}

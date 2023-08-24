@@ -1,0 +1,5 @@
+export { default as Home } from './Home.jsx'
+export { default as Products } from './Products'
+export { default as Blog } from './Blog'
+export { default as Contact } from './Contact'
+export { default as About } from './About'

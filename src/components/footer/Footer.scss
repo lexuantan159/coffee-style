@@ -1,0 +1,107 @@
+@import "../../styles/variables";
+@import "../../styles/respsonsive";
+
+
+.footer {
+    display: flex;
+    margin: 100px 0;
+    @include mobile-tablet {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .footer-img {
+    padding-top: 10px;
+    @include mobile-tablet {
+      margin: 0 auto;
+    }
+  }
+  
+  .footer-col {
+    @include mobile-tablet  {
+      display: block;
+      width: 100%;
+    }
+    .footer-desc {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+    }
+  
+    .footer-create {
+      color: #1d1f2e4d;
+      font-size: 1.4rem;
+      &:hover {
+        color: $buttonColor;
+      }
+    }
+  
+    &:nth-child(1) {
+      width: 40%;
+      @include mobile-tablet  {
+        display: block;
+        width: 100%;
+      }
+    }
+    &:nth-child(2) {
+      width: 20%;
+      @include mobile-tablet  {
+        display: block;
+        width: 100%;
+      }
+    }
+    &:nth-child(3) {
+      width: 20%;
+      @include mobile-tablet  {
+        display: block;
+        width: 100%;
+      }
+    }
+    &:nth-child(4) {
+      width: 20%;
+      @include mobile-tablet  {
+        display: block;
+        width: 100%;
+      }
+    }
+  
+    .footer-heading {
+      font-size: 1.2rem;
+      color: $textColor;
+      line-height: 24px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0;
+      @include mobile-tablet  {
+        margin: 40px;
+      }
+    }
+  
+    .footer-items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .footer-link {
+      color: $textColor;
+      opacity: 0.8;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      text-decoration: none;
+      &:hover {
+        color: $buttonColor;
+      }
+    }
+  
+    .footer-email {
+      color: $bgButtonColor;
+      font-size: 2.4rem;
+      font-weight: 400;
+      &:hover {
+        color: $buttonColor;
+      }
+    }
+  }
+  
